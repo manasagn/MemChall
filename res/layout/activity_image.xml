@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridView 
+    android:id="@+id/gridview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    
+android:columnWidth="90dp"
+   android:numColumns="3"
+   android:verticalSpacing="10dp"
+   android:horizontalSpacing="10dp"
+   android:stretchMode="columnWidth"
+   android:gravity="center">
+</GridView>
+
+<TextView
+    android:id="@+id/timerValue"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:text="@string/timerVal"
+    android:textColor="#FF0000"
+    android:textSize="40sp" />
+
+<TextView
+    android:id="@+id/findImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:text="@string/find_msg"
+    android:textColor="#FF0000"
+    android:textSize="40sp" />
+
+<ImageView android:id="@+id/SingleView"
+   android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="80dp"
+   android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
